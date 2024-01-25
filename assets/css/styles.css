@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     background-size: 100%;
+    background-image: url(https://www.itl.cat/pngfile/big/40-406595_monster-high-wallpapers-monster-high-background.jpg);
 }
 
 h1 {
@@ -18,7 +19,7 @@ h2 {
     justify-content: center;
 }
 
-#tarjeta {
+#tarjeta1 {
     border: 30px solid;
     background-color: bisque;
     padding: 20px;
@@ -26,7 +27,16 @@ h2 {
     display: flex;
     flex-wrap: wrap-reverse;
 }
+#tarjeta2 {
+    border: 30px solid;
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 img {
-    width: 50%;
+    width: 100%;
 }
